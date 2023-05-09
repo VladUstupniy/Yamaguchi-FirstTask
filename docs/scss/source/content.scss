@@ -1,0 +1,49 @@
+.content {
+	padding: 30px 0px 50px 0px;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	@media (min-width: 1200px) {
+		padding: 15px 0px 30px 0px;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+.content__row {
+	height: 820px;
+	flex: 0 0 50%;
+	padding: 0px 50px;
+}
+.content__title {
+	font-family: 'Bebas Neue';
+	max-width: 250px;
+	margin-bottom: 60px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 100%;
+	text-transform: uppercase;
+	color: #0B64FE;
+	@media (min-width: 1200px) {
+		max-width: 500px;
+		font-family: 'Ubuntu';
+		font-weight: 300;
+		font-size: 62px;
+		text-transform: none;
+	}
+}
+.content__text p {
+	width: 350px;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 170%;
+	color: #181818;
+	margin-bottom: 50%;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	@media (min-width: 1200px) {
+		margin-bottom: 60px;
+		width: 500px;
+	}
+}

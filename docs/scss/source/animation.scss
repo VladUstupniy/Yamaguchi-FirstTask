@@ -1,0 +1,14 @@
+.animation--up {
+	animation: up .5s linear 0s forwards;
+}
+.animation--down {
+	animation: down .5s linear 0s forwards;
+}
+@keyframes up {
+	0% { top: 10%; }
+	100% { top: 0%; }
+}
+@keyframes down {
+	0% { top: 0%; }
+	100% { top: 10%; }
+}
