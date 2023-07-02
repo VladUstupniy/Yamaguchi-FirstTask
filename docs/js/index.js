@@ -5,6 +5,7 @@ const imgTable = document.getElementById("imgTable");
 btnUp.addEventListener("click", () => {
   imgTable.classList.remove("animation--down");
   imgTable.classList.add("animation--up");
+  btnDown.disabled = false;
 });
 
 btnDown.addEventListener("click", () => {
